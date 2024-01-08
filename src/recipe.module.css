@@ -1,0 +1,56 @@
+.recipe{
+border-radius: 10px;
+box-shadow: 0px 5px 20px rgb(71, 71, 71);
+margin: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+background: white;
+align-items:center; 
+width:60%;
+height: max-content;
+
+
+
+}
+.image{
+    border-radius: 20px;
+    width:150px;
+    height:150px;
+    margin-bottom: 10px;
+}
+
+.list{
+    justify-content: center;
+    inline-size: 300px;
+    line-break: strict;
+} 
+@media screen and (max-width: 700px) {
+    .recipe {
+        width:90%;
+        height: 60%;
+    }
+
+  }
+  @media screen and (max-width: 400px) {
+    .list {
+        justify-content: center;
+        inline-size: 200px;
+        line-break: strict;
+    }
+}
+    @media screen and (max-width: 250px) {
+      
+        .list {
+            inline-size: 70px;
+            line-break: strict;
+        }
+        .image{
+            border-radius: 20px;
+            width:50px;
+            height:50px;
+            margin-bottom: 10px;
+        }
+        
+    
+  }
